@@ -1,9 +1,10 @@
 def my_name():
     print("my name is bader")
     my_name()
-    def my_meal(food, drink):
-        print(f"i like to eat {food} while drinking {drink}")
-        my_meal("pizza", "oj")
+
+def my_meal(food, drink):
+    print(f"i like to eat {food} while drinking {drink}")
+    my_meal("pizza", "oj")
 
 def cube(number):
     return number **3
